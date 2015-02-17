@@ -12,6 +12,7 @@ Installing this module assumes that you have some way to inject the user's id in
 5. Copy com (and all subdirectories) into the modules directory for JBoss
 6. Add the module as a global module
 7. Add the module to the gatein-domain security domain AFTER the header is set but BEFORE the JBoss7ASLogin module
+
 ...
 <login-module code="com.tremolosecurity.sso.jbossportal.HeaderLoginModule" flag="required">
   <module-option name="headerName" value="uid" />
